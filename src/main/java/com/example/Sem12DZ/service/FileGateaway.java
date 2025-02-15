@@ -6,7 +6,7 @@ import org.springframework.messaging.handler.annotation.Header;
 
 
 @MessagingGateway(defaultRequestChannel = "textInChanel")
-public interface FileGateaway {
+public interface FileGateaway extends SaveIService {
 
 
 
